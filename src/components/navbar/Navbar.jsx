@@ -8,7 +8,7 @@ const Navbar = () => {
       <Link to="/" className="title-logo text-3xl">Lock<span className='text-orange-500'>Box</span></Link>
       <ul className='flex gap-4'>
         <li className=''>
-          <Link to="/iniciar-sesion"><Login /></Link>
+          <Link to="#"><Login /></Link>
         </li>
         <li>
           <Link to="/registro">Registrate</Link>
